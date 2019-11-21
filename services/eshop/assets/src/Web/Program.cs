@@ -46,7 +46,7 @@ namespace Microsoft.eShopWeb.Web
                 {
                     config.AddJsonFile("appsettings.json")
                           .AddEnvironmentVariables()
-                          .AddJsonFile("config/db-connection-string", optional: true))
+                          .AddJsonFile("config/db-connection-string", optional: true)
                           .AddJsonFile("/run/secrets/app/config/db-connection-string", optional: true);
                 })
                 .ConfigureLogging((hostingContext, logging) =>
