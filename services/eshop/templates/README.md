@@ -19,7 +19,7 @@ Open a terminal for this folder and set up the GitHub remote:
 ```
 git init
 git add --all
-git commit -m "A template built all this!"
+git commit -m 'A template built all this!'
 git remote add origin {{range .Services}}{{if eq "github" .ID}}https://github.com/{{.Parameters.username}}/{{.Parameters.repoName}}.git{{end}}{{end}}
 ```
 
