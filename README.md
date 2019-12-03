@@ -54,7 +54,7 @@ az ad sp create-for-rbac --name http://eshoponazure
 
 ## Setup
 
-Update your App Template config in `~/.docker/application-template/preferences.yaml` to include the template library at `https://raw.githubusercontent.com/sixeyed/eshoponazure-workshop/master/eshopon-library.yaml`.
+Update your App Template config in `~/.docker/application-template/preferences.yaml` to include the template library at `https://raw.githubusercontent.com/sixeyed/eshoponazure-workshop/master/eshop-library.yaml`.
 
 This example includes the local demo libraries and the main Docker library:
 
